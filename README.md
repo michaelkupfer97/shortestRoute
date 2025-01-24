@@ -30,18 +30,16 @@ This project is a multi-threaded client-server application that calculates the s
    git clone https://github.com/michaelkupfer97/shortestRoute
    cd shortestRoute/finalProject
 
-Run the Server: Compile and start the server to handle incoming client requests.
-
-bash
-javac Server.java
-java Server
-
-Run the Client: Connect to the server and query the shortest path.
-
-bash
+2.**Run the Server: Compile and start the server to handle incoming client requests.**
+```bash
+  javac Server.java
+  java Server
+```
+3.**Run the Client: Connect to the server and query the shortest path.**
+```bash
 javac Client.java
 java Client
-
+```
 Database: Ensure the database (graph.db) is configured with node connection data.
 
 ## Example Query
